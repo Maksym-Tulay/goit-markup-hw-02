@@ -4,20 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
 <!--Header-->
-<header>
-    <a href="./index.html">
-     WebStudio
+<header class="page-header">
+    <a href="./index.html" class="logo-header">
+     <span>Web</span>Studio
     </a>
 
      <!--Main navigation-->
-    <nav>
+    <nav class="header-site-nav">
         <ul>
         <li><a href="./index.html">Студія</a></li>
         <li><a href="./portfolio.html">Портфоліо</a></li>
@@ -25,19 +35,19 @@
         </ul>
     </nav>
         <!--Contacts-->
-    <ul>
+    <ul class="header-contacts">
         <li><a href="mailto:info@devstudio.com"></a>info@devstudio.com</li>
         <li><a href="tel:+380961111111"></a>+38 096 111 11 11</li>
     </ul>
 </header>
 
-<main>
+<main class="main">
     <!--Portfolio gallery-->
-    <section>
+    <section class="gallery-section">
         <h2>Портфоліо</h2>
 
         <!--Gallery navgation-->
-        <ul>
+        <ul class="gallery-nav">
             <li>
                 <button type="button">
                      Все
@@ -66,110 +76,110 @@
         </ul>
 
         <!--Gallery-->
-        <ul>
-            <li>
+        <ul class="gallery-item-main">
+            <li class="gallery-item">
                 <a href=""></a>
                 <img src="./images/project-1.jpg" 
                 alt="Веб-сайт Технокряк"
                 width="370"
                 height="294">
-                <h3>Технокряк</h3>
-                <p>Веб-сайт</p>
+                <h3 class="gallery-item-name">Технокряк</h3>
+                <p class="gallery-item-text">Веб-сайт</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <a href=""></a>
                 <img src="./images/project-2.jpg" 
                 alt="Постер New Orlean"
                 width="370"
                 height="294">
-                <h3>Постер New Orlean vs Golden Star</h3>
-                <p>Дизайн</p>
+                <h3 class="gallery-item-name">Постер New Orlean vs Golden Star</h3>
+                <p class="gallery-item-text">Дизайн</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <a href=""></a>
                 <img src="./images/project-3.jpg" 
                 alt="Додаток Ресторан Seafood" 
                 width="370"
                 height="294">
                 <h3>Ресторан Seafood</h3>
-                <p>Додаток</p>
+                <p class="gallery-item-text">Додаток</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <a href=""></a>
                 <img src="./images/project-4.jpg" 
                 alt="Маркетинг Проєкт Prime"
                 width="370"
                 height="294">
-                <h3>Проєкт Prime</h3>
-                <p>Маркетинг</p>
+                <h3 class="gallery-item-name">Проєкт Prime</h3>
+                <p class="gallery-item-text">Маркетинг</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <a href=""></a>
                 <img src="./images/project-5.jpg" 
                 alt="Додаток Проєкт Boxes"
                 width="370"
                 height="294">
-                <h3>Проєкт Boxes</h3>
-                <p>Додаток</p>
+                <h3 class="gallery-item-name">Проєкт Boxes</h3>
+                <p class="gallery-item-text">Додаток</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <a href=""></a>
                 <img src="./images/project-6.jpg"
                 alt="Веб-сайт Inspiration has no Borders"
                 width="370"
                 height="294">
-                <h3>Inspiration has no Borders</h3>
-                <p>Веб-сайт</p>
+                <h3 class="gallery-item-name">Inspiration has no Borders</h3>
+                <p class="gallery-item-text">Веб-сайт</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <a href=""></a>
                 <img src="./images/project-7.jpg" 
                 alt="Дизайн Видання Limited Edition"
                 width="370"
                 height="294">
-                <h3>Видання Limited Edition</h3>
-                <p>Дизайн</p>
+                <h3 class="gallery-item-name">Видання Limited Edition</h3>
+                <p class="gallery-item-text">Дизайн</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <a href=""></a>
                 <img src="./images/project-8.jpg" 
                 alt="Маркетинг Проект LAB"
                 width="370"
                 height="294">
-                <h3>Проект LAB</h3>
-                <p>Маркетинг</p>
+                <h3 class="gallery-item-name">Проект LAB</h3>
+                <p class="gallery-item-text">Маркетинг</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <a href=""></a>
                 <img src="./images/project-9.jpg" 
                 alt="Додаток Growing Business"
                 width="370"
                 height="294">
-                <h3>Growing Business</h3>
-                <p>Додаток</p>
+                <h3 class="gallery-item-name">Growing Business</h3>
+                <p class="gallery-item-text">Додаток</p>
             </li>
         </ul>
     </section>
 </main>
 
 <!--Footer-->
-<footer>
-    <p>
-        WebStudio
+<footer class="footer">
+    <p class="logo-footer">
+        <span>Web</span>Studio
     </p>
     <!--Adress-->
-    <address>
+    <address class="address-item-list">
     
-        <ul>
-            <li>
+        <ul >
+            <li class="address-item-main">
                 <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">
                     м. Київ, пр-т Лесі Українки, 26
                 </a>
-                </li>
-            <li>
+            </li>
+            <li class="address-item-contact">
                 <a href="mailto:info@example.com">info@example.com </a>
             </li>
-            <li>
+            <li class="address-item-contact">
                 <a href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
         </ul>
