@@ -1,7 +1,157 @@
 body{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #212121
+}
+
+.page-header{
 
 }
 
-.logo{
+.logo-header{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo-span{
+    color: #2196F3;
+}
+
+.header-site-nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.header-site-nav-item{
+    
+}
+
+.header-site-nav-item:hover{
+    color: #2196F3;
+}
+
+.header-contacts{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #757575;
+}
+
+.header-contact-mail:hover,
+.header-contact-mail:focus {
+    color: #2196F3;
+ }
+
+ .header-contact-tel:hover,
+ .header-contact-tel:focus {
+     color: #2196F3;
+ }
+.main{
 
 }
+
+.gallery-section{
+
+}
+
+.gallery-nav{
+
+}
+
+.gallery-nav-item{
+
+}
+
+.gallery-nav-button{
+    cursor: pointer;
+
+}
+
+.gallery-nav-button:focus{
+    color: #2196F3;
+}
+
+.gallery-nav-item-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #212121;
+}
+
+.gallery-nav-item-text:hover{
+    color: #FFFFFF;
+}
+
+.gallery-item-main{
+
+}
+
+.gallery-item{
+
+}
+
+.gallery-item:focus{
+    color: #2196F3;
+}
+
+.gallery-item-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.gallery-item-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.footer{
+
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo-footer-span {
+    color: #2196F3;
+}
+
+.address-item-list{
+
+}
+
+.address-item-main{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.address-item-contact{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
