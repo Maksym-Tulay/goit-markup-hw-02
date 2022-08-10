@@ -42,9 +42,9 @@ body{
         color: var(--blue-color);
     }
 
-        .logo-header:hover {
+    .logo-header:hover {
             color: var(--blue-color);
-        }
+    }
 
     /* site navigation */
 
@@ -60,12 +60,12 @@ body{
         text-decoration: none;
     }
 
-    .header-nav a:hover,
-    .header-contact li:hover{
+    .header-nav-link:hover,
+    .header-contact-link:hover{
         color: var(--blue-color);
     }
-    .header-nav a:focus,
-    .header-contact li:focus {
+    .header-nav-link:focus,
+    .header-contact-link:focus {
         outline: solid 2px var(--blue-color);
         color: var(--blue-color);
     }
