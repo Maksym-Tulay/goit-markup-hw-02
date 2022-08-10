@@ -60,16 +60,6 @@ body{
         text-decoration: none;
     }
 
-    .header-nav-link:hover,
-    .header-contact-link:hover{
-        color: var(--blue-color);
-    }
-    .header-nav-link:focus,
-    .header-contact-link:focus {
-        outline: solid 2px var(--blue-color);
-        color: var(--blue-color);
-    }
-
     /* header-contact */
 
     .header-contact {
@@ -78,6 +68,19 @@ body{
         line-height: 1,14;
         color:rgba(117, 117, 117, 100%);
         list-style: none;
+    }
+
+    /* hover and focus */
+
+    .header-nav-link:hover,
+    .header-contact-link:hover {
+        color: var(--blue-color);
+    }
+        
+    .header-nav a:focus,
+    .header-contact li:focus {
+        outline: solid 2px var(--blue-color);
+        color: var(--blue-color);
     }
 
 /* студія main section */
