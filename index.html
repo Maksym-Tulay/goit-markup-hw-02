@@ -45,18 +45,20 @@
 
      <main>
         <!--Шапка-->
-        <section>
-            <h1>Ефективні рішення для <br> вашого бізнесу</h1>
-            <button type="button">
+        <section class="hero">
+            <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
+            <button type="button" class="hero-button">
                 Замовити послугу
             </button>
         </section>
 
     <!--Особливості-->
-     <section>
-        <h2>Особливості</h2>
-        <ul>
-            <li>
+     <section class="index-aside">
+        <!-- h2 must be hidden by css -->
+        <h2 class="hidden title">Особливості</h2>
+        
+        <ul class="index-aside-list">
+            <li class="index-aside-item">
                 <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
                 <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
@@ -75,23 +77,23 @@
         </ul>
      </section>
     <!--Чим ми займаємося-->
-     <section>
-        <h2>Чим ми займаємося</h2>
+     <section class="index-work-list">
+        <h2 class="work-list-title">Чим ми займаємося</h2>
         <ul> 
             <li>
-                <a href="">
+                <a href="#">
                     <img src="images/img-1.jpg" alt="Робота за комп'ютером" height="294" width="370">
                 </a>
                 
             </li>
             <li>
-                <a href="">
+                <a href="#">
                     <img src="images/img-2.jpg" alt="Робота за телефоном" height="294" width="370">
                 </a>
                
             </li>
             <li>
-                <a href="">
+                <a href="#">
                     <img src="images/img-3.jpg" alt="Робота за планшетом" height="294" width="370">
                 </a>
                 
@@ -99,8 +101,8 @@
         </ul>
      </section>
     <!--Наша команда-->
-     <section>
-        <h2>Наша команда</h2>
+     <section class="team-list">
+        <h2 class="team-list-title">Наша команда</h2>
         <ul>
             <li>
                 <img src="images/img-team-1.jpg" alt="Ігор Дем'яненко">
@@ -126,29 +128,31 @@
      </section>
     </main>
 
-    <!--Підвал-->
-    <footer>
-        <p>
-            WebStudio
+    <!--Footer-->
+    <footer class="footer">
+        <p class="logo-footer">
+            <span class="logo-span">Web</span>Studio
         </p>
-        <!--Контакти-->
-        <address>
+        <!--Adress-->
+        <address class="address-list">
 
             <ul>
-                <li>
+                <li class="address-item-main">
                     <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">
-                    м. Київ, пр-т Лесі Українки, 26
+                        м. Київ, пр-т Лесі Українки, 26
                     </a>
                 </li>
-                <li>
+                <li class="address-item-link">
                     <a href="mailto:info@example.com">info@example.com </a>
                 </li>
-                <li>
+                <li class="address-item-link">
                     <a href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
-            
+
         </address>
     </footer>
+
 </body>
+
 </html>
