@@ -72,8 +72,8 @@ body{
 
     /* hover and focus */
 
-    .header-nav-link:hover,
-    .header-contact-link:hover {
+    .header-nav a:hover,
+    .header-contact li:hover {
         color: var(--blue-color);
     }
         
