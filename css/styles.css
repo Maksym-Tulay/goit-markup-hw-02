@@ -42,6 +42,10 @@ body{
         color: var(--logo-blue-text-color);
     }
 
+        .logo-header:hover {
+            color: var(--logo-blue-text-color);
+        }
+
     /* site navigation */
 
     .header-nav ul{
@@ -99,7 +103,6 @@ body{
             height: 50px;
             background-color: var(--logo-blue-text-color);
             background: var(--logo-blue-text-color);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border: none;
             border-radius: 4px;
             cursor: pointer;
@@ -122,26 +125,44 @@ body{
 
         }
 
+        /*  hidden h2 title on main and portfolio pages */
         .hidden-title{
-
+            display: none;
         }
 
         .index-aside-list{
-
+            list-style: none;
         }
 
-        .index-aside-item{
+        .index-aside-list h3{
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 1,14;
+         text-transform: uppercase;
+        }
 
+        .index-aside-list p{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1,71;
+            color: var(--list-text-color);
         }
 
     /* worklist section */
 
-        .index-work-list{
+        .index-work-list {
+            
+        }
 
+        .index-work-list ul{
+            list-style: none;            
         }
 
         .work-list-title{
-
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1,17;
+            text-align: center;
         }
 
     /* teamlist section */
@@ -150,9 +171,29 @@ body{
 
         }
 
-        .index-teamlist-title{
-
+        .index-teamlist ul{
+            list-style: none;
         }
+
+        .index-teamlist-title{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1,17;
+            text-align: center;
+        }
+
+           .index-teamlist h3{
+               font-weight: 500;
+               font-size: 16px;
+               line-height: 1;
+           }
+    
+           .index-teamlist p{
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 1;
+               color: var(--list-text-color);
+           }
 
 /* портфоліо main section*/
 
@@ -177,27 +218,28 @@ body{
                     height: 38px;
                     cursor: pointer;
                     background-color: var(--button-background-color);
-                    border: none;                
+                    border: none;
+                    border-radius: 4px;
                 }
 
                 .gallery-nav-button:focus{
                     outline: solid 2px var(--logo-blue-text-color);
                 }
-                .gallery-nav-button:active{
+                .gallery-nav-button:hover,
+                .gallery-nav-item-text:hover{
                     background-color: var(--logo-blue-text-color);
+                    color: var(--body-background-color);
+
                 }
 
                 .gallery-nav-item-text{
                     font-weight: 500;
                     font-size: 16px;
                     line-height: 1,625;
-                    color:var(--body-text-color);
                     text-align: center;
                 }
 
-                .gallery-nav-item-text:active{
-                    color: var(--body-background-color);
-                }
+                
             /* gallery */
                 .gallery-item{
                     list-style: none
