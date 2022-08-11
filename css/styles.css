@@ -61,24 +61,26 @@ body{
     }
 
     /* header-contact */
-
     .header-contact {
+        list-style: none;
+    }
+    .header-contact a{
         font-weight: 500;
         font-size: 14px;
         line-height: 1,14;
         color:rgba(117, 117, 117, 100%);
-        list-style: none;
+        text-decoration: none;
     }
 
     /* hover and focus */
 
     .header-nav a:hover,
-    .header-contact li:hover {
+    .header-contact-link a:hover {
         color: var(--blue-color);
     }
         
-    .header-nav a:focus,
-    .header-contact li:focus {
+    .header-nav-link a:focus,
+    .header-contact-link a:focus {
         outline: solid 2px var(--blue-color);
         color: var(--blue-color);
     }
@@ -161,12 +163,21 @@ body{
             list-style: none;            
         }
 
+        .index-work-list a:focus {
+            outline: solid 2px var(--blue-color);
+        }
+
+        .index-work-list a:hover {
+            color: var(--blue-color);
+        }
         .work-list-title{
             font-weight: 700;
             font-size: 36px;
             line-height: 1,17;
             text-align: center;
         }
+
+
 
     /* teamlist section */
 
@@ -229,7 +240,7 @@ body{
                     outline: solid 2px var(--blue-color);
                 }
                 .gallery-nav-button:hover,
-                .gallery-nav-item p:hover{
+                .gallery-nav-item a:hover{
                     background-color: var(--blue-color);
                     color: var(--body-background-color);
 
@@ -244,17 +255,24 @@ body{
 
                 
             /* gallery */
+                
+            .gallery{
+
+            }    
+
+            .gallery a:focus {
+                outline: solid 2px var(--blue-color);
+            }
+        
+            .gallery a:hover {
+                color: var(--blue-color);
+            }
+            
                 .gallery-item{
                     list-style: none
                 }
 
-                    .gallery-item{
 
-                    }
-
-                    .gallery-item:focus{
-                        outline: solid 2px var(--blue-color);
-                    }
 
                     .gallery-item h3{
                         font-weight: 700;
