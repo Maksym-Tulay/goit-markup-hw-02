@@ -240,8 +240,7 @@ body{
                 .gallery-nav-button:focus{
                   outline: solid 2px var(--blue-color);
                 }
-                .gallery-nav-button:hover,
-                .gallery-nav-item a:hover{
+                .gallery-nav-button:hover{
                     background-color: var(--blue-color);
                     color: var(--body-background-color);
                 }
