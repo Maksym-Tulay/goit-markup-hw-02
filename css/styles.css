@@ -258,7 +258,7 @@ body{
 
                 }
 
-                .gallery-nav-button{
+                .gallery-nav button{
                     height: 38px;
                     cursor: pointer;
                     background-color: var(--grey-background-color);
@@ -271,10 +271,10 @@ body{
                     letter-spacing: 0.03em;
                 }
 
-                .gallery-nav-button:focus{
+                .gallery-nav button:focus{
                     color: var(--blue-color);
                 }
-                .gallery-nav-button:hover{
+                .gallery-nav button:hover{
                     background-color: var(--blue-color);
                     color: var(--body-background-color);
                 }
