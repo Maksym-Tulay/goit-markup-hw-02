@@ -141,7 +141,7 @@ body{
 
         }
 
-        /*  hidden h2 title on main and portfolio pages */
+        /*  hidden h1 + h2 titles on main and portfolio pages */
         .hidden-title{
             position: absolute;
             white-space: nowrap;
